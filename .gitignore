@@ -4,9 +4,13 @@ example/.registry/*
 example/.registry/medea.lock
 example/.peers/*
 example/.peers/medea.lock
+example/.devices/*
+example/.devices/medea.lock
 .registry/*
 .registry/medea.lock
 .peers/*
 .peers/medea.lock
+.devices/*
+.devices/medea.lock
 npm-debug.log
 .DS_Store
