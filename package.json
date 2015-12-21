@@ -1,13 +1,14 @@
 {
-  "name": "zetta-starter-driver",
+  "name": "zetta-sample-alljoyn-driver",
   "version": "0.1.0",
-  "description": "Zetta starter driver for any platform",
+  "description": "Zetta sample driver for AllJoyn",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
   "dependencies": {
+    "alljoyn": "^1.0.0",
     "zetta-device": "*",
     "zetta-scout": "*"
   },
@@ -16,7 +17,7 @@
   },
   "keywords": [
     "zetta",
-    "starter",
+    "alljoyn_sample",
     "any platform"
   ]
 }

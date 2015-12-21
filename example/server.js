@@ -1,8 +1,8 @@
 var zetta = require('zetta');
-var Starter = require('../index');
-var app = require('./apps/starter');
+var AllJoynSample = require('../index');
+var app = require('./apps/alljoyn_sample_app');
 
 zetta()
-  .use(Starter)
+  .use(AllJoynSample)
   .use(app)
   .listen(1337);
